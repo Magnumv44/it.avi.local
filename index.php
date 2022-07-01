@@ -86,7 +86,7 @@
                     <div id="docs" class="col-3 general">
                         <h1>DOCS</h1>
                         <hr />
-                        <p>Система документообігу</p>
+                        <p>Система хмарного зберігання документі та файлів</p>
                         <a href="http://docs.avi.local/" class="btn btn-lg btn-primary" target="_blank"><i class="bi bi-cloud-check"></i>Увійти</a>
                     </div>
                     <div id="email" class="col-3 general">
