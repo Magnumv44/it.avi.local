@@ -42,10 +42,10 @@
     <div class="container-fluid">
         <div class="row">
             <header>
-                <div class="row headcol">
-                <div class="col">
-                    <a href="http://aviakon.com" target="_blank">
-                        <img src="images/logo.png" height="120" width="190"/>
+                <div class="row headcol justify-content-center">
+                <div class="col-4">
+                    <a href="http://aviakon.com" target="_blank" class="link">
+                        <img src="images/logo.png" alt="Державне підприємство Авіакон" />
                         <br />
                         <span class="head-link-text">Державне підприємство "Авіакон"</span>
                     </a>
