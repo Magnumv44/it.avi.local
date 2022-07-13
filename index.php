@@ -47,7 +47,7 @@
                     <a href="http://aviakon.com" target="_blank" class="link">
                         <img src="images/logo.png" alt="Державне підприємство Авіакон" />
                         <br />
-                        <span class="head-link-text">Державне підприємство "Авіакон"</span>
+                        <span class="head-link-text">ТОВ "Авіакон"</span>
                     </a>
                 </div>
                 </div>
