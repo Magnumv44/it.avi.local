@@ -44,11 +44,13 @@
             <header>
                 <div class="row headcol justify-content-center">
                 <div class="col-4">
+                    <div class="align-block">
                     <a href="http://aviakon.com" target="_blank" class="link">
                         <img src="images/logo.png" alt="Державне підприємство Авіакон" />
                         <br />
                         <span class="head-link-text">ТОВ "Авіакон"</span>
                     </a>
+                    </div>
                 </div>
                 </div>
             </header>
@@ -59,9 +61,9 @@
                     if(isSiteAvailible($URL)){
                 ?>
                         <div class="row justify-content-md-center">
-                            <div class="col-8">
+                            <div id="search" class="col-8">
                                 <form method="get" action="<?php echo $URL ?>/search">
-                                        <div id="search" class="input-group">
+                                        <div class="input-group">
                                             <input type="text" name="q" maxlength="255" placeholder="Введіть ваш пошуковий запит" class="form-control form-control-lg" />
                                             <input type="submit" formtarge="_blank" value="Пошук" class="btn btn-lg btn-primary" />
                                         </div>
