@@ -62,7 +62,7 @@
                             <div class="col-8">
                                 <form method="get" action="<?php echo $URL ?>/search">
                                         <div id="search" class="input-group">
-                                            <input type="text" name="q" maxlength="255" value="Введіть ваш пошуковий запит" class="form-control form-control-lg" onfocus="if(this.value==this.defaultValue)this.value=''; this.style.color='black';" onblur="if(this.value=='')this.value=this.defaultValue;" />
+                                            <input type="text" name="q" maxlength="255" placeholder="Введіть ваш пошуковий запит" class="form-control form-control-lg" />
                                             <input type="submit" formtarge="_blank" value="Пошук" class="btn btn-lg btn-primary" />
                                         </div>
                                     </form>
