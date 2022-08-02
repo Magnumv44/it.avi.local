@@ -67,7 +67,7 @@ header {
 }
 
 .head-link-text {
-    display: block;
+    display: inline-block;
     padding-top: 15px;
     font-size: 1.5em;
 }
