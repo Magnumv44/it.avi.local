@@ -54,7 +54,6 @@ header {
 }
 
 .headcol {
-    /*text-align: center;*/
     padding-top: 1em;
 }
 
@@ -62,12 +61,16 @@ header {
     text-align: center;
 }
 
+.align-block {
+    display: inline-block;
+}
+
 .headcol a {
     text-decoration: none;
 }
 
 .head-link-text {
-    display: inline-block;
+    display: block;
     padding-top: 15px;
     font-size: 1.5em;
 }
@@ -105,7 +108,7 @@ header {
 
 /* Поиск */
 #search {
-    margin-top: 15%;
+    margin-top: 13%;
 }
 
 .form-control {
@@ -113,14 +116,26 @@ header {
     color: #ccc;
 }
 
+/* Responsive styles */
+@media (max-width: 1399.98px) {
+    #search {
+        margin-top: 7%;
+    }
+}
+
 @media (max-width: 767.98px) {
     .col-8 {
         width: 100%;
     }
 }
+
 @media (max-width: 575.98px) {
     .col-8, .col-3 {
         width: 100%;
+    }
+
+    .head-link-text {
+        white-space: nowrap;
     }
 
     #search {
