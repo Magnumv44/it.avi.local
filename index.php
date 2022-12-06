@@ -31,8 +31,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Вітаємо</title>
-    <link href="css/bootstrap-reboot.min.css" rel="stylesheet" type="text/css" />
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap-icons.css" rel="stylesheet" type="text/css" />
     <link href="css/template.css" rel="stylesheet" type="text/css" />
     <link href="images/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
     <link href="images/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
@@ -78,25 +78,34 @@
                     <div id="glpi" class="col-3 general">
                         <h1>Сайт</h1>
                         <hr />
-                        <p>Офіційний web-сайт підприємства</p>
+                        <div class="block">
+                            <p>Офіційний web-сайт підприємства</p>
+                        </div>
                         <a href="http://aviakon.com" class="btn btn-lg btn-primary" target="_blank"><i class="bi bi-globe"></i>Перейти</a>
+                        
                     </div>
                     <div id="glpi" class="col-3 general">
                         <h1>GLPI</h1>
                         <hr />
-                        <p>Система контролю виконання завдань</p>
+                        <div class="block">
+                            <p>Система контролю виконання завдань</p>
+                        </div>
                         <a href="http://it.avi.local/glpi/" class="btn btn-lg btn-primary" target="_blank"><i class="bi bi-calendar2-week"></i>Увійти</a>
                     </div>
                     <div id="docs" class="col-3 general">
                         <h1>DOCS</h1>
                         <hr />
-                        <p>Система хмарного зберігання документі та файлів</p>
+                        <div class="block">
+                            <p>Система хмарного зберігання документів та файлів</p>
+                        </div>
                         <a href="http://docs.avi.local/" class="btn btn-lg btn-primary" target="_blank"><i class="bi bi-cloud-check"></i>Увійти</a>
                     </div>
                     <div id="email" class="col-3 general">
                         <h1>E-MAIL</h1>
                         <hr />
-                        <p>Внутрішня пошта для співробітників</p>
+                        <div class="block">
+                            <p>Внутрішня пошта для співробітників</p>
+                        </div>
                         <a href="http://mail.aviakon.com/" class="btn btn-lg btn-primary" target="_blank"><i class="bi bi-envelope"></i>Увійти</a>
                     </div>
                 </div>
