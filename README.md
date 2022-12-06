@@ -1,4 +1,4 @@
-# it.avi.local
+# Description
 Internal start page in the enterprise Aviakon
 
 ## Display example
