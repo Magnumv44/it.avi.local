@@ -1,5 +1,5 @@
 # Description
-Internal start page in the enterprise Aviakon
+Internal start page for the enterprise Aviakon
 
 # Functional
 * Has a built-in Google search form, which is displayed only if there is Internet access
