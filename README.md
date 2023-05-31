@@ -7,5 +7,5 @@ Internal start page for the enterprise Aviakon
 
 ## Display example
 <p align="center">
-<img src="simple.png" title="C# для чайников" alt="C# для чайников">
+<img src="simple.png" title="Internal start page for the enterprise Aviakon" alt="Internal start page for the enterprise Aviakon">
 </p>
