@@ -9,7 +9,9 @@ html, body {
 body {
         background: linear-gradient(-45deg, #23a6d5, #6677d4, #57C2EA); /* Здесь задаются градиенты цветов для анимации */
         background-size: 400% 400%;
+        -webkit-background-size: 400% 400%; /* Для WebKit браузеров */
         animation: gradient 15s ease infinite;
+        -webkit-animation: gradient 15s ease infinite; /* Для WebKit браузеров */
 }
 
 @keyframes gradient {
@@ -88,10 +90,6 @@ header {
     margin-top: 1em;
 }
 
-/*.block {
-    min-height: 100px;
-}*/
-
 /*Цвет для кнопок*/
 .btn-primary {
     background-color: #2A7FD8; /* Для background с картинкой цвет #df7366 */
@@ -132,12 +130,17 @@ header {
 }
 
 @media (max-width: 767.98px) {
+    .headcol .col-4 
     .col-8 {
         width: 100%;
     }
 }
 
 @media (max-width: 575.98px) {
+    .headcol .col-4 {
+        width: 100%;
+    }
+
     .col-8, .col-3 {
         width: 100%;
     }
